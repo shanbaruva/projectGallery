@@ -4,3 +4,9 @@ body{
     margin: 0;
     padding: 0;
   }
+
+  h1{
+    font-size: 40pt;
+    font-weight: 500;
+    color: #363638;
+  }
