@@ -10,3 +10,11 @@ body{
     font-weight: 500;
     color: #363638;
   }
+
+  .container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+  }
