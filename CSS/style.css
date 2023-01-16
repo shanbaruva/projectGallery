@@ -11,23 +11,21 @@ body{
     color: #363638;
   }
 
-  .container {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-  }
+img {
+  max-width: 100%;
+  vertical-align: top;
+  height: 310px;
+}
 
-  .item {
-    position: relative;
-    float: left;
-    overflow: hidden;
-    margin: 10px 1%;
-    min-width: 320px;
-    max-width: 410px;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    box-sizing: border-box;
-  }
+.item {
+  position: relative;
+  float: none;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 410px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
